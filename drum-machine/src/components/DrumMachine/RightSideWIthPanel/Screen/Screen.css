@@ -1,0 +1,17 @@
+.screen {
+  width: 70%;
+  height: 50px;
+  background-color: var(--clr-big-foot);
+  border-radius: 2px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen p {
+  margin: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
