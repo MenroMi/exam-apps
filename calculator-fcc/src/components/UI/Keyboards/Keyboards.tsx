@@ -40,6 +40,9 @@ const Keyboards = () => {
       setActualExpression(String(result));
       setLeftOperand(String(result));
     }
+
+    setRightOperand('');
+    setOperation('');
   };
 
   const handleIntegers = (
@@ -47,6 +50,7 @@ const Keyboards = () => {
     content: string,
     setContent: (prev: string) => string,
   ) => {
+    console.log(leftOperand, operation, rightOperand);
     if (isFirstOperand) {
       setActualExpression(content);
       setWholeExpression(content);
