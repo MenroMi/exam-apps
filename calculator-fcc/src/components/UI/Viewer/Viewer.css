@@ -1,0 +1,26 @@
+.viewer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 8rem;
+  justify-content: space-between;
+}
+
+.viewer__actual-output {
+  color: white;
+  font-size: 4.5rem;
+  line-height: 1.1;
+  width: 100%;
+  text-align: right;
+}
+
+.viewer__whole-output {
+  word-wrap: break-word;
+  width: 100%;
+  font-size: 2rem;
+  color: var(--clr-orange);
+  text-align: right;
+  line-height: 1;
+}

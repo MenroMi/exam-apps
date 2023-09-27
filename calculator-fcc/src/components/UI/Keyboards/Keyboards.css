@@ -1,0 +1,22 @@
+.keyboards {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  color: white;
+  list-style: none;
+  gap: 0.3rem;
+}
+
+.keyboards>li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 6.25rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.keyboards>li:hover {
+  filter: brightness(1.2);
+}

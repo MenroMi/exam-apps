@@ -1,0 +1,71 @@
+.reset {
+  grid-row: 1;
+  grid-column: span 2;
+  background-color: var(--clr-red);
+}
+
+.divide {
+  grid-row: 1;
+  grid-column: 3;
+  background-color: var(--clr-black-lighter);
+}
+
+.multiply {
+  grid-row: 1;
+  grid-column: 4;
+  background-color: var(--clr-black-lighter);
+}
+
+.minus {
+  grid-row: 2;
+  grid-column: 4;
+  background-color: var(--clr-black-lighter);
+}
+
+.plus {
+  grid-row: 3;
+  grid-column: 4;
+  background-color: var(--clr-black-lighter);
+}
+
+.equal {
+  grid-row: 4 / 6;
+  grid-column: 4;
+  background-color: var(--clr-blue);
+}
+
+.int-9,
+.int-8,
+.int-7,
+.int-6,
+.int-5,
+.int-4,
+.int-3,
+.int-2,
+.int-1,
+.int-0,
+.dot {
+  background-color: var(--clr-black)
+}
+
+.int-9,
+.int-8,
+.int-7 {
+  grid-row: 2;
+}
+
+.int-6,
+.int-5,
+.int-4 {
+  grid-row: 3;
+}
+
+.int-3,
+.int-2,
+.int-1 {
+  grid-row: 4;
+}
+
+.int-0 {
+  grid-column: span 2;
+}

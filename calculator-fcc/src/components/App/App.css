@@ -1,0 +1,14 @@
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.calculator {
+  width: 500px;
+  min-height: 500px;
+  background-color: var(--clr-black-darker);
+  padding: 5px;
+}
