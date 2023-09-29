@@ -1,0 +1,24 @@
+#timer-label {
+  margin-top: 0.875rem;
+  border: 0.5rem solid var(--clr-mint);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.timer-label__title {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.timer-label__body {
+  margin: 0;
+  font-size: 5rem;
+}
+
+.media-btns {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}

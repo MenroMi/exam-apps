@@ -1,0 +1,23 @@
+.arrow {
+  filter: invert();
+  width: 1.5rem;
+}
+
+#start-btn,
+#stop-btn,
+#reset-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.media-btn {
+  width: 1.5rem;
+  background-color: transparent;
+  filter: invert();
+  cursor: pointer;
+}
+
+.media-btn:active {
+  transform: scale(0.9);
+  transition: all 200ms ease;
+}
